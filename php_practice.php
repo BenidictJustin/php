@@ -114,27 +114,88 @@
         // echo is_float(3.1);
         // echo is_numeric("25 HAHA");
 
-        $a = (object) '5 BENI';
-        $b = (object) 5;
-        $c = (object) 4.1;
-        $d = (object) true;
-        $g = (object) null;
-        $h = (object) fopen("php_practice.php", "r");
-        
-        var_dump($a);
-        echo "<br>";
-        var_dump($b);
-        echo "<br>";
-        var_dump($c);
-        echo "<br>";
-        var_dump($d);
-        echo "<br>";
-        var_dump($g);
-        echo "<br>";
-        var_dump($h);
-        echo "<br>";
+        // $a = (array) '5 BENI';
+        // $b = (array) 5;
+        // $c = (array) 4.1;
+        // $d = (array) true;
+        // $e = (array) null;
+        // $f = (array) fopen("php_practice.php", "r");
 
-        unset($a);
+        // unset($a);
+        
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // var_dump($e);
+        // echo "<br>";
+        // var_dump($f);
+        // echo "<br>";
+
+        // echo pi();
+        // echo "<br>";
+        // echo(min(0,145,1414,-200));
+        // echo "<br>";
+        // echo(max(0,145,1414,-200));
+        // echo "<br>";
+
+        // echo sqrt(2);
+        // echo round(5.4);
+        // echo rand(5,20);
+
+        // $_asd = 5;
+        // define("BENIDICT", true);
+        // // echo BENIDICT;
+        // function test(){
+        //     echo BENIDICT;
+        // }
+        // test();
+
+        // $x = 5;
+
+        // $x += 10;
+        // $x %= 5;
+        // echo $x;
+    
+
+        // var_dump(5 == 5);
+        // var_dump(5 === "5");
+        // var_dump(5 <> 7);
+        // var_dump(5 !== 7);
+        // echo 3 <=> 2;
+        
+        //pre-increment
+        // $x = 5;
+        // echo ++$x;
+        // //post-increment
+        // $y = 5;
+        // echo $y++;
+        // echo $y;
+
+        //Logical
+        // AND &&
+        // var_dump(true && true);
+        // var_dump(5==="5" && 5==5);// both true is true
+
+        // //OR ||
+        // var_dump(false || false);// at leat 1 is true
+        // //XOR
+        // var_dump(true xor false);// only 1 true
+        // // ! REVERSE
+        // var_dump(!false);
+
+        // .
+        // $x = "Hello";
+
+        // // .= append
+        // $x .= "World";
+        // echo $x;
+
+
 
     ?>
     
